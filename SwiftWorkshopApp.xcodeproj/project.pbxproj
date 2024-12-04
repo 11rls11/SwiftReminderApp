@@ -16,6 +16,11 @@
 		9BBCC9E92CFF7B57007D3C6F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9BBCC9E82CFF7B57007D3C6F /* FirebaseFirestore */; };
 		9BBCC9EB2CFF7EAE007D3C6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BBCC9EA2CFF7EAE007D3C6F /* GoogleService-Info.plist */; };
 		9BBCC9EE2CFF7F29007D3C6F /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCC9ED2CFF7F29007D3C6F /* AuthViewModel.swift */; };
+		9BBCC9F32D00C9CC007D3C6F /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCC9F22D00C9CC007D3C6F /* AppNavigation.swift */; };
+		9BBCC9F62D00CBE2007D3C6F /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCC9F52D00CBE2007D3C6F /* Project.swift */; };
+		9BBCC9F82D00CF75007D3C6F /* NewProjectForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCC9F72D00CF75007D3C6F /* NewProjectForm.swift */; };
+		9BBCC9FA2D00D665007D3C6F /* ProjectsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCC9F92D00D665007D3C6F /* ProjectsList.swift */; };
+		9BBCC9FC2D00DA70007D3C6F /* ProjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCC9FB2D00DA70007D3C6F /* ProjectsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		9B8AB8DD2CFE2D4F00FD6350 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BBCC9EA2CFF7EAE007D3C6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "SwiftWorkshopApp/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		9BBCC9ED2CFF7F29007D3C6F /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		9BBCC9F22D00C9CC007D3C6F /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		9BBCC9F52D00CBE2007D3C6F /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		9BBCC9F72D00CF75007D3C6F /* NewProjectForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectForm.swift; sourceTree = "<group>"; };
+		9BBCC9F92D00D665007D3C6F /* ProjectsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsList.swift; sourceTree = "<group>"; };
+		9BBCC9FB2D00DA70007D3C6F /* ProjectsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +72,10 @@
 			isa = PBXGroup;
 			children = (
 				9B8AB8D62CFE2D4F00FD6350 /* SwiftWorkshopAppApp.swift */,
+				9BBCC9F42D00CBCA007D3C6F /* Model */,
 				9BBCC9EC2CFF7F08007D3C6F /* ViewModel */,
 				9BBCC9EA2CFF7EAE007D3C6F /* GoogleService-Info.plist */,
+				9BBCC9EF2D00C98A007D3C6F /* Navigation */,
 				9B8AB8E42CFE2EC100FD6350 /* View */,
 				9B8AB8DA2CFE2D4F00FD6350 /* Assets.xcassets */,
 				9B8AB8DC2CFE2D4F00FD6350 /* Preview Content */,
@@ -83,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				9B8AB8D82CFE2D4F00FD6350 /* ContentView.swift */,
+				9BBCC9F72D00CF75007D3C6F /* NewProjectForm.swift */,
+				9BBCC9F92D00D665007D3C6F /* ProjectsList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -91,8 +105,25 @@
 			isa = PBXGroup;
 			children = (
 				9BBCC9ED2CFF7F29007D3C6F /* AuthViewModel.swift */,
+				9BBCC9FB2D00DA70007D3C6F /* ProjectsViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9BBCC9EF2D00C98A007D3C6F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				9BBCC9F22D00C9CC007D3C6F /* AppNavigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		9BBCC9F42D00CBCA007D3C6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BBCC9F52D00CBE2007D3C6F /* Project.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,9 +205,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBCC9FC2D00DA70007D3C6F /* ProjectsViewModel.swift in Sources */,
+				9BBCC9F82D00CF75007D3C6F /* NewProjectForm.swift in Sources */,
 				9B8AB8D92CFE2D4F00FD6350 /* ContentView.swift in Sources */,
+				9BBCC9FA2D00D665007D3C6F /* ProjectsList.swift in Sources */,
 				9B8AB8D72CFE2D4F00FD6350 /* SwiftWorkshopAppApp.swift in Sources */,
 				9BBCC9EE2CFF7F29007D3C6F /* AuthViewModel.swift in Sources */,
+				9BBCC9F62D00CBE2007D3C6F /* Project.swift in Sources */,
+				9BBCC9F32D00C9CC007D3C6F /* AppNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

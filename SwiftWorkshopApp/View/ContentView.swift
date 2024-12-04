@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var authViewModel = AuthViewModel()
+    @Bindable var authViewModel: AuthViewModel
     @FocusState private var focus: Field?
     
     enum Field {
@@ -52,7 +52,6 @@ struct ContentView: View {
                 }
                 .disabled(self.authViewModel.email.isEmpty||self.authViewModel.password.isEmpty)
             }
-            Text(self.authViewModel.user?.email ?? "No user")
         }
         .padding(32)
         .background(Color(uiColor: .systemBackground))
@@ -98,6 +97,3 @@ struct ContentView: View {
         }
     }
 
-#Preview {
-    ContentView()
-}
