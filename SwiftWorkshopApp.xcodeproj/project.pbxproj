@@ -21,6 +21,7 @@
 		9BBCC9F82D00CF75007D3C6F /* NewProjectForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCC9F72D00CF75007D3C6F /* NewProjectForm.swift */; };
 		9BBCC9FA2D00D665007D3C6F /* ProjectsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCC9F92D00D665007D3C6F /* ProjectsList.swift */; };
 		9BBCC9FC2D00DA70007D3C6F /* ProjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCC9FB2D00DA70007D3C6F /* ProjectsViewModel.swift */; };
+		9BBCC9FE2D021E36007D3C6F /* ProjectPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCC9FD2D021E36007D3C6F /* ProjectPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9BBCC9F72D00CF75007D3C6F /* NewProjectForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectForm.swift; sourceTree = "<group>"; };
 		9BBCC9F92D00D665007D3C6F /* ProjectsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsList.swift; sourceTree = "<group>"; };
 		9BBCC9FB2D00DA70007D3C6F /* ProjectsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewModel.swift; sourceTree = "<group>"; };
+		9BBCC9FD2D021E36007D3C6F /* ProjectPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				9B8AB8D82CFE2D4F00FD6350 /* ContentView.swift */,
 				9BBCC9F72D00CF75007D3C6F /* NewProjectForm.swift */,
 				9BBCC9F92D00D665007D3C6F /* ProjectsList.swift */,
+				9BBCC9FD2D021E36007D3C6F /* ProjectPreview.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				9BBCC9EE2CFF7F29007D3C6F /* AuthViewModel.swift in Sources */,
 				9BBCC9F62D00CBE2007D3C6F /* Project.swift in Sources */,
 				9BBCC9F32D00C9CC007D3C6F /* AppNavigation.swift in Sources */,
+				9BBCC9FE2D021E36007D3C6F /* ProjectPreview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

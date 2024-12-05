@@ -27,6 +27,7 @@ struct NewProjectForm: View {
                 TextField("Correo", text: $newProject.author.email)
                     .textContentType(.emailAddress)
                     .keyboardType(.emailAddress)
+                    .textInputAutocapitalization(.never)
                 TextField("Número de teléfono", text: $newProject.author.number)
                     .textContentType(.telephoneNumber)
                     .keyboardType(.emailAddress)
