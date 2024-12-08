@@ -1,6 +1,6 @@
-# SwiftWorkshopApp
+# Swift Reminder App
 
-SwiftWorkshopApp is an iOS application designed during a Workshop organized by the TECoding Stundent's Group at ITESM GDL campus to help users create, manage, and track projects or activities. Built with SwiftUI and integrated with Firebase services, it provides a seamless experience for user authentication, data persistence, and reminder scheduling. With features like secure login, project creation, and real-time syncing, it aims to streamline task management and enhance productivity.
+Swift Reminder App (codenamed SwiftWorkshopApp) is an iOS application designed during a Workshop organized by the TECoding Stundent's Group at ITESM GDL campus to help users create, manage, and track projects or activities. Built with SwiftUI and integrated with Firebase services, it provides a seamless experience for user authentication, data persistence, and reminder scheduling. With features like secure login, project creation, and real-time syncing, it aims to streamline task management and enhance productivity.
 
 ---
 
