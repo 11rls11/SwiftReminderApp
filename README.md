@@ -96,9 +96,10 @@ Swift Reminder App (codenamed SwiftWorkshopApp) is an iOS application designed d
 ## Contributing
 
 Contributions, bug reports, and feature requests are welcome. Please open an issue or submit a pull request with your proposed changes. When contributing, ensure adherence to best practices, code quality, and provide a detailed description of the changes.
-License
 
 ---
+
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
